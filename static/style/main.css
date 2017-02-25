@@ -1,0 +1,20 @@
+/*only styles li elements that are direct children of an unordered list*/
+ul > li{
+	display: inline-block;
+	padding: 15px;
+}
+
+/*updates the cursor to indicate you can click on it*/
+img.add:hover{
+	cursor: pointer;
+}
+
+/*hides the nest forms*/
+.nest{
+	visibility: hidden;
+}
+
+/*shows the forms once their class has been updated by the css*/
+.visible{
+	visibility: visible;
+}
